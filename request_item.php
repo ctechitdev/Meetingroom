@@ -4,9 +4,9 @@
 class requestItem{
 	
 	private $host  = 'localhost';
-    private $user  = 'kplaocom';
-    private $password   = "*1QzaNEeXD";
-    private $database  = "kplaocom_KPleave";         
+    private $user  = 'root';
+    private $password   = "";
+    private $database  = "kpleave";         
 	private $dbConnect = false;
     public function __construct(){
         if(!$this->dbConnect){ 
